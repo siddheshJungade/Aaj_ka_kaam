@@ -1,0 +1,154 @@
+*,html,body 
+{
+    margin: 0%;
+    padding: 0%;
+    
+    
+}
+
+header
+{
+    background-color: dodgerblue;
+    height: 90px;
+    line-height: 24px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+ul li
+{
+    display:inline;
+}
+
+header ul
+{
+    float: right;
+    
+}
+
+.logo img
+{
+    margin-top: 30px;
+}
+
+header nav ul li a 
+{
+    padding-right: 20px;
+    font-weight: bold;
+    color: aliceblue ;
+    text-decoration: none;
+    transition: all 0.5s ease-in ;
+}
+
+
+header nav ul li a:hover
+{
+    text-decoration: none;
+    color: darkslateblue;
+}
+
+
+section ul li
+{
+    display: inline;
+}
+
+
+
+/* search the txt */
+
+
+
+
+#searchTxt
+{
+   border-radius: 30px;
+   border: 2px solid whitesmoke  ;
+   padding: 7px 30px;
+   color: black;
+   text-align: center;
+   font-size: 16px;
+   margin: 2px 2px;
+   position: relative;
+   
+}
+
+
+/* for your nots */
+
+#notes
+{
+    margin: 20px;
+}
+
+
+
+
+/* for Our team */
+
+
+#boxes
+{
+    margin-top: 20px;
+
+}
+
+
+
+#boxes .box
+
+{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding: 10px;
+
+}
+
+/* button design */
+.button-f {
+    background-color: dodgerblue; /* Green */
+    border: 2px solid dodgerblue;
+    padding: 7px 30px;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button-f {
+    background-color: white;  
+    
+    
+  }
+
+  .button-f:hover {
+    background-color: dodgerblue;
+    color: white;
+    padding-right: 25px;
+  }
+  
+
+
+
+/* images in secon page */
+
+
+#boxes .box img{
+    height:40%;
+    width: 40%;
+
+    border-radius:50%;
+}
